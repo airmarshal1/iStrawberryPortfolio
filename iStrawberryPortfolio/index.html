@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="myapp">
+<head>
+    <base href="/" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>ILIYA PORTFOLIO</title>
+    <script type="text/javascript" src="bootstrap/Scripts/angular.js"></script>
+    <script type="text/javascript" src="bootstrap/Scripts/angular-route.js"></script>
+    <script type="text/javascript" src="bootstrap/Scripts/angular-cookies.js"></script>
+    <script type="text/javascript" src="bootstrap/Scripts/angular-animate.js"></script>
+    <script type="text/javascript" src="bootstrap/js/jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.bundle.js"></script>
+    <script type="text/javascript" src="bootstrap/js/jquery-ui-1.12.1.js"></script>
+    <script type="text/javascript" src="bootstrap/js/jquery.slimscroll.js"></script>
+    <script src="OwlCarousel-master/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="bootstrap/my/my.js"></script>
+    <script type="text/javascript" src="bootstrap/my/script.js"></script>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="bootstrap/css/bootstrap-grid.min.css" rel="stylesheet" />
+    <link href="devicons-master/css/devicons.min.css" rel="stylesheet" />
+    <link href="fontawesome-free-5.8.1-web/css/all.css" rel="stylesheet" />
+    <link href="OwlCarousel-master/owl-carousel/owl.carousel.css" rel="stylesheet" />
+    <link href="OwlCarousel-master/owl-carousel/owl.theme.css" rel="stylesheet" />
+    <link href="OwlCarousel-master/owl-carousel/owl.transitions.css" rel="stylesheet" />
+    <link href="bootstrap/css/jquery-ui.css" rel="stylesheet" />
+    <link href="bootstrap/my/my.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href="bootstrap/my/june.css" rel="stylesheet" />
+    <link rel="icon" href="img/favicon.jpg" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+        });
+    </script>
+</head>
+<body>
+    <div class="profileWrapper d-lg-flex">
+        <aside>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 px-0">
+                        <div class="imgContainer profileImage">
+                            <img src="img/mypic.jpg" class="img-fluid" />
+                        </div>
+                        <div class="bottomSection">
+                            <div class="wrapper p-3">
+                                <div class="name">
+                                    JOHN ZWANDOR ILIYA
+                                </div>
+                                <div class="socialLinks">
+                                    <ul class="noBullets d-flex justify-content-center">
+                                        <li>
+                                            <a title="Facebook" onClick="window.open('https://www.facebook.com/john.iliya.92');" class="nav-link"><i  class="fab fa-facebook icon"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onClick="window.open('https://www.instagram.com/airmarshal1/');" title="Instagram" class="nav-link"><i class="fab fa-instagram icon"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onClick="window.open('https://www.linkedin.com/in/john-iliya-9a739a16b/');" title="Linkedin" class="nav-link d-flex"><i class="fab fa-linkedin-in icon"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onClick="window.open('https://twitter.com/iliyajohn2');" title="Twitter"  class="nav-link"><i class="fab fa-twitter icon"></i>
+                                            </a>
+                                        </li> 
+                                        <li>
+                                            <a href="#" onClick="window.open('https://github.com/airmarshal1');" title="Github" class="nav-link"><i class="fab fa-github icon"></i>
+                                            </a>
+                                        </li>                                                                              
+                                    </ul>
+                                </div>
+                                <div class="email">
+                                    <a href="#" class="nav-link"><i class="fas fa-envelope mr-2"></i>johniliya224@gmail.com</a>
+                                </div>
+                                <div class="email">
+                                    <a href="#" class="nav-link"><i class="fas fa-phone mr-2"></i>08164708041</a>
+                                </div>
+                                <div class="email">
+                                    <a href="#" class="nav-link"><i class="fas fa-phone-square mr-2"></i>08053467874</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <main>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12 px-0 page {{pageClass}}" ng-view>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
